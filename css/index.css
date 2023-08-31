@@ -172,7 +172,7 @@
   margin: auto;
 }
 .radio-skin,
-.radio-skin--建立网站,
+.radio-skin--artcle,
 .radio-skin--app,
 .radio-skin--event {
   height: 100%;
@@ -182,7 +182,7 @@
   transition: all 0.4s ease;
 }
 .radio-skin::after,
-.radio-skin--建立网站::after,
+.radio-skin--artcle::after,
 .radio-skin--app::after,
 .radio-skin--event::after {
   transition: all 0.4s ease;
@@ -199,22 +199,22 @@
   top: 22px;
   box-shadow: 1px 0 5px rgba(0,0,0,0.2);
 }
-.radio-skin--建立网站::after {
+.radio-skin--artcle::after {
   border-color: #ee936c;
 }
-#radio-建立网站:checked+.radio-skin--建立网站 {
+#radio-artcle:checked+.radio-skin--artcle {
   background-color: #ee936c;
 }
-#radio-建立网站:checked+.radio-skin--建立网站::after {
+#radio-artcle:checked+.radio-skin--artcle::after {
   background-color: #ee936c;
   top: -2px;
 }
-.timeline-item-建立网站 .line-anchor::after,
-.timeline-item-建立网站--hidden .line-anchor::after {
+.timeline-item-artcle .line-anchor::after,
+.timeline-item-artcle--hidden .line-anchor::after {
   background-color: #ee936c;
 }
-.timeline-item-建立网站 .line-date-tag,
-.timeline-item-建立网站--hidden .line-date-tag {
+.timeline-item-artcle .line-date-tag,
+.timeline-item-artcle--hidden .line-date-tag {
   background-color: #ee936c;
 }
 /*
