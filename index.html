@@ -73,7 +73,13 @@
         <input id="navBtn" type="checkbox" />
         <div class="nav-menu">
           
-            <a href='/blog/'>博客</a>
+            
+              <a class="nav-menu-item" href="/g">图库</a>
+            
+              <a class="nav-menu-item" href="/blog">博客</a>
+            
+              <a class="nav-menu-item" href="/about">关于</a>
+            
           
         </div>
         <label class="nav-btn" for="navBtn"></label>
@@ -115,7 +121,7 @@
          style="background-image: url(/images/about.jpg)"></div>
     <div class="about-text">
       <div class="about-title">
-        <div class="matts">关</div><div class="matts">于</div>
+        <div class="matts">李</div><div class="matts">白</div>
       </div>
       <div class="about-detail">
         <div class="about-text-p">
@@ -154,24 +160,24 @@
         <div class="radio-wrapper">
           
             <div class="radio">
-              <input id="radio-artcle"
+              <input id="radio-about"
                      type="checkbox"
                       />
-              <label class="radio-skin--artcle" for="radio-artcle"></label>
+              <label class="radio-skin--about" for="radio-about"></label>
             </div>
           
             <div class="radio">
-              <input id="radio-app"
+              <input id="radio-galleries"
                      type="checkbox"
                       />
-              <label class="radio-skin--app" for="radio-app"></label>
+              <label class="radio-skin--galleries" for="radio-galleries"></label>
             </div>
           
             <div class="radio">
-              <input id="radio-event"
+              <input id="radio-blog"
                      type="checkbox"
                      checked />
-              <label class="radio-skin--event" for="radio-event"></label>
+              <label class="radio-skin--blog" for="radio-blog"></label>
             </div>
           
         </div>
@@ -194,11 +200,11 @@
         <div class="foot__head">
           
             <div class="foot-line">
-              <div class="matts">海</div><div class="matts">内</div><div class="matts">存</div><div class="matts">知</div><div class="matts">己</div>
+              <div class="matts">山</div><div class="matts">高</div><div class="matts">水</div><div class="matts">长</div>
             </div>
           
             <div class="foot-line">
-              <div class="matts">天</div><div class="matts">涯</div><div class="matts">若</div><div class="matts">比</div><div class="matts">邻</div>
+              <div class="matts">后</div><div class="matts">会</div><div class="matts">有</div><div class="matts">期</div>
             </div>
           
         </div>
@@ -394,7 +400,7 @@
   
   
   <script type="text/javascript">
-    const timelineData = {"types":["artcle","app","event"],"posts":[{"title":"My New Post","path":"/2023/08/31/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%BB%BA%E7%AB%99/","icon":"/images/icon/icon-event.svg","type":"event","date":"2023-08-31"}]}
+    const timelineData = {"types":["about","galleries","blog"],"posts":[{"title":"首次建站","path":"/2023/08/31/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%BB%BA%E7%AB%99/","icon":"/images/icon/icon-event.svg","type":"blog","date":"2023-08-31"}]}
     const {types, posts} = timelineData
     listEl = document.querySelector("#timeline-list");
 
